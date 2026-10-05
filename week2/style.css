@@ -22,7 +22,7 @@ pre {
 }
 
 a {
-    color: #fff;
+    color: #e0852a;
 }
 
 a:hover {
@@ -30,7 +30,6 @@ a:hover {
 }
 
 img {
-    display: block;
     max-width: 100%;
     margin: 20px auto;
 }
