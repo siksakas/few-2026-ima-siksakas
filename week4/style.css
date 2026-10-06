@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+    font-family: "JetBrains Mono", "Courier New", monospace;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #000;
+}
+
+h1 {
+    text-align: center;
+}
+
+pre {
+    background-color: #111;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+a {
+    color: #e0852a;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+img {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.row-element {
+    margin: auto 50px;
+}
