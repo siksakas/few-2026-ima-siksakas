@@ -37,6 +37,7 @@ img {
     display: flex;
     flex-direction: row;
     padding-bottom: 30px;
+    flex-wrap: wrap;
 }
 .row.center {
     justify-content: center;
