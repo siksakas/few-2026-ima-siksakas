@@ -18,6 +18,23 @@ pre {
     background-color: #111;
     border: 1px solid #333;
     padding: 10px;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 700px) {
+    p {
+        font-size: 22px;
+    }
+}
+
+@keyframes myAnimation {
+  0%   {transform: rotate(4deg);}
+  25%  {transform: rotate(-4deg);}
+  50%  {transform: rotate(8deg);}
+  75%  {transform: rotate(-8deg);}
+  100% {transform: rotate(4deg);}
 }
 
 a {
